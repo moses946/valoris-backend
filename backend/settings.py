@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-#d4shg!-jn9c_k+)%46&cm=(q1ii%ozbs4#9i##s0m1%+k4)1d
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["127.0.0.1", "condor-endless-finally.ngrok-free.app"]
+ALLOWED_HOSTS = ["127.0.0.1", "condor-endless-finally.ngrok-free.app", "kanyi1.pythonanywhere.com"]
 
 
 # Application definition
