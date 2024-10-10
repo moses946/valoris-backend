@@ -1,0 +1,7 @@
+{% autoescape off %}
+            Your email has been received! The team is working to get in touch
+          
+        
+            2024 Valoris. All rights reserved.
+     
+{% endautoescape %}
