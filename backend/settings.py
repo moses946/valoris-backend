@@ -119,10 +119,10 @@ USE_TZ = True
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.zoho.com'
 EMAIL_PORT = 465
-EMAIL_USE_SSL = True 
-EMAIL_HOST_USER = 'info@byteflow.co.ke'  
-EMAIL_HOST_PASSWORD = 'Mbokavulai197'    
-DEFAULT_FROM_EMAIL = 'info@byteflow.co.ke'
+EMAIL_USE_SSL = True  
+EMAIL_HOST_USER = os.getenv('ZOHO_EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = os.getenv('ZOHO_EMAIL_HOST_PASSWORD')
+DEFAULT_FROM_EMAIL = os.getenv('ZOHO_EMAIL_HOST_USER')
 
 
 # Static files (CSS, JavaScript, Images)
