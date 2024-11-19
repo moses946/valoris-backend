@@ -2,6 +2,6 @@
             Your email has been received! The team is working to get in touch
           
         
-            2024 Valoris. All rights reserved.
+            2024 ByteFlow. All rights reserved.
      
 {% endautoescape %}
