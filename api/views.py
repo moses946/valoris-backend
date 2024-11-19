@@ -45,7 +45,7 @@ def activateEmail(subject, template_path, to_email, name):
         'name': name
     })
     
-    email = EmailMessage(mail_subject, message, to=[to_email])
+    email = EmailMessage(mail_subject, message, to=[to_email], from_email=settings.DEFAULT_FROM_EMAIL, headers={"Content-Type": "text/plain; charset=UTF-8"})
    
     if email.send():
         print("email sent")
